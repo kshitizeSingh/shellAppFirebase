@@ -4,15 +4,15 @@
 
 export const environment = {
   production: false,
-  firebase:{
-    apiKey: "AIzaSyDgtLK4GXWE3iVHAlYjPnDqVWZvQ3e-R0k",
-    authDomain: "truth-alone-triumph.firebaseapp.com",
-    databaseURL: "https://truth-alone-triumph-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "truth-alone-triumph",
-    storageBucket: "truth-alone-triumph.appspot.com",
-    messagingSenderId: "118550867115",
-    appId: "1:118550867115:web:6adbf8362552bea2a71bee",
-    measurementId: "G-09ELVWMG8P"
+  firebase: {
+    apiKey: "AIzaSyCrB5I2hyU0OYmpglVpeTqfUDN5x9vraEU",
+    authDomain: "confession-9b668.firebaseapp.com",
+    databaseURL: "https://confession-9b668.firebaseio.com",
+    projectId: "confession-9b668",
+    storageBucket: "confession-9b668.appspot.com",
+    messagingSenderId: "818680498089",
+    appId: "1:818680498089:web:205e63f333e3c6d4b266b8",
+    measurementId: "G-F8H4RHWGD6"
   }
 };
 
