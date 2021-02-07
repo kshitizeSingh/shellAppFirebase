@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyDgtLK4GXWE3iVHAlYjPnDqVWZvQ3e-R0k",
+    authDomain: "truth-alone-triumph.firebaseapp.com",
+    databaseURL: "https://truth-alone-triumph-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "truth-alone-triumph",
+    storageBucket: "truth-alone-triumph.appspot.com",
+    messagingSenderId: "118550867115",
+    appId: "1:118550867115:web:6adbf8362552bea2a71bee",
+    measurementId: "G-09ELVWMG8P"
+  }
 };
 
 /*
