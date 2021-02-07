@@ -43,6 +43,7 @@ export class AuthService {
   }
 
   private updateUserData(user:any){
+    // ipdate the data info as per requirment to store additional user info.
     const userRef: AngularFirestoreDocument<any>=this.afs.doc(`users/${user.uid}`)
     const data={
       uid:user.uid,
