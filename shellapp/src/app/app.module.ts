@@ -13,6 +13,7 @@ import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth'
 import {SharedModule} from './sharedModule/shared/shared.module';
+import {WindowService} from './service/window.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import {SharedModule} from './sharedModule/shared/shared.module';
     AngularFirestoreModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [WindowService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

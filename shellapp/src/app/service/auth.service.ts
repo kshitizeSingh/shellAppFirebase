@@ -37,6 +37,13 @@ export class AuthService {
     const credentials= await this.auth.signInWithPopup(provider);
     return this.updateUserData(credentials.user)
   }
+
+  async phoneSingIn(){
+    // register facebook developer app to start
+    // const provider=new firebase.auth.
+    // const credentials= await this.auth.signInWithPopup(provider);
+    // return this.updateUserData(credentials.user)
+  }
   
   logout() {
     this.auth.signOut();
